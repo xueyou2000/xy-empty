@@ -13,7 +13,7 @@
 [download-image]: https://img.shields.io/npm/dm/xy-empty.svg?style=flat-square
 [download-url]: https://npmjs.org/package/xy-empty
 
-> 基于`React Hooks` + `typescript`的基础组件
+> 暂时为空的状态
 
 ## 安装
 
@@ -36,8 +36,8 @@ yarn add xy-empty
 ```ts
 import React from "react";
 import ReactDOM from "react-dom";
-import XyEmpty from "xy-empty";
-ReactDOM.render(<XyEmpty />, container);
+import Empty from "xy-empty";
+ReactDOM.render(<Empty />, container);
 ```
 
 ## 开发

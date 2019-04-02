@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "react-testing-library";
-import Component from "../src";
+import Empty from "../src";
 
-describe("component", () => {
+describe("Empty", () => {
     test("render", () => {
-        const wrapper = render(<Component />);
-        const div = wrapper.getByText("Hello");
-        expect(div.textContent).toBe("Hello");
+        const wrapper = render(<Empty />);
+        const p = wrapper.getByText("暂无数据");
+        expect(p).toBeDefined();
     });
 });
