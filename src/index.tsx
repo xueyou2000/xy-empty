@@ -2,9 +2,10 @@ import React from "react";
 import classNames from "classnames";
 import { EmptyProps } from "./interface";
 import EmptySvg from "../assets/empty.svg";
+import { EmptyLocal } from "./Locale";
 
 export function Empty(props: EmptyProps) {
-    const { prefixCls = "xy-empty", className, style, image, imageStyle, description = "暂无数据", children } = props;
+    const { prefixCls = "xy-empty", className, style, image, imageStyle, description = EmptyLocal.description, children } = props;
 
     return (
         <div className={classNames(prefixCls, className)} style={style}>
