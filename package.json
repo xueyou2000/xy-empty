@@ -1,7 +1,7 @@
 {
     "name": "xy-empty",
-    "version": "0.0.3",
-    "description": "基于React的基础组件",
+    "version": "0.0.4",
+    "description": "基于React的空状态组件",
     "types": "es/index.d.ts",
     "main": "es/index.js",
     "module": "es/index.js",

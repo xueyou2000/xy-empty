@@ -25,10 +25,10 @@
 
 ```sh
 # npm
-npm install --save xy-empty
+npm install --save xy-empty classnames
 
 # yarn
-yarn add xy-empty
+yarn add xy-empty classnames
 ```
 
 ## 使用
