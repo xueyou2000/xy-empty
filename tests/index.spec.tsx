@@ -27,8 +27,8 @@ describe("Empty", () => {
     });
 
     test("customize image", () => {
-        const wrapper = render(<Empty image="https://xx.png" />);
+        const wrapper = render(<Empty image="https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original" />);
         const img = wrapper.container.querySelector(".xy-empty-img") as HTMLImageElement;
-        expect(img.src).toBe("https://xx.png");
+        expect(img.src).toBe("https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original");
     });
 });
