@@ -24,7 +24,7 @@ export interface EmptyProps {
      */
     description?: React.ReactNode;
     /**
-     * 抽屉包裹内容
+     * 底部操作内容
      */
     children?: React.ReactNode;
 }

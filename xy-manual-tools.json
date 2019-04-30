@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Simple",
+        "title": "简单使用",
+        "desc": "默认显示描述: 暂无数据， 可以通过更改 EmptyLocal.description 变量实现覆盖默认描述。"
+    },
+    {
+        "name": "CustomizeFooter",
+        "title": "自定义页脚",
+        "desc": "页脚通常用关于放置操作按钮。"
+    },
+    {
+        "name": "CustomizeImage",
+        "title": "自定义图片",
+        "desc": "设置 image 属性配置图片地址， 通常结合 imageStyle 属性设置图片样式。"
+    }
+]
