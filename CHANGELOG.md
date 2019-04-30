@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.6 (Tue Apr 30 2019)
+
+-   修复`tsconfig.json`导致的编译问题
+
 ## 0.0.5 (Tue Apr 30 2019)
 
 -   从`storybook`换成`xy-manual-tools`来管理 demo
