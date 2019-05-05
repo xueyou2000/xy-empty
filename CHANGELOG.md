@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.7 (Sun May 05 2019)
+
+-   更新`xy-manual-tools`, 修复编译 demo
+
 ## 0.0.6 (Tue Apr 30 2019)
 
 -   修复`tsconfig.json`导致的编译问题

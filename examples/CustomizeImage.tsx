@@ -1,6 +1,5 @@
 import React from "react";
-import Empty from "xy-empty";
-import "xy-empty/assets/index";
+import Empty from "../src";
 
 export default function() {
     return (
