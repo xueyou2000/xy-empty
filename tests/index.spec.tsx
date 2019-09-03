@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-testing-library";
+import { render } from "@testing-library/react";
 import Empty from "../src";
 import { EmptyLocal } from "../src/Locale";
 
@@ -14,7 +14,7 @@ describe("Empty", () => {
         const wrapper = render(
             <Empty>
                 <button>重试</button>
-            </Empty>
+            </Empty>,
         );
         const btn = wrapper.getByText("重试");
         expect(btn.parentElement.classList.contains("xy-empty-footer")).toBeTruthy();
