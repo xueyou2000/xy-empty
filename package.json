@@ -1,6 +1,6 @@
 {
     "name": "xy-empty",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "基于 React Hooks 的空状态组件",
     "types": "es/index.d.ts",
     "main": "es/index.js",
@@ -41,13 +41,13 @@
         "@types/node": "12.7.3",
         "@types/react": "16.9.2",
         "@types/react-dom": "16.9.0",
-        "quick-react-scripts": "1.2.2",
-        "xy-manual-tools": "0.1.65"
+        "quick-react-scripts": "^1.3.2",
+        "xy-manual-tools": "^0.3.0"
     },
     "dependencies": {
         "classnames": "^2.2.6",
-        "react": "^16.8.2",
-        "react-dom": "^16.8.2"
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
     },
     "repository": {
         "type": "git",
