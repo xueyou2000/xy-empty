@@ -1,12 +1,12 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import Empty from "../src";
-import { EmptyLocal } from "../src/Locale";
+import ZhLocal from "../src//local/zh";
 
 describe("Empty", () => {
     test("render", () => {
         const wrapper = render(<Empty />);
-        const p = wrapper.getByText(EmptyLocal.description);
+        const p = wrapper.getByText(ZhLocal.EmptyLocal.description);
         expect(p).toBeDefined();
     });
 
